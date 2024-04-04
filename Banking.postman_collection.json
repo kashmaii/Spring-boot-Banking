@@ -22,11 +22,11 @@
 					"raw": "{\n\t\"bankName\": \"Bank of Ceyloan\",\n\t\"ownerName\": \"Nayananga Muhandiram\"\n}\n"
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/accounts",
+					"raw": "localhost:8069/api/v1/accounts",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8069",
 					"path": [
 						"api",
 						"v1",
@@ -53,11 +53,11 @@
 					"raw": "{\n\t\"sourceAccount\": {\n\t\t\"sortCode\": \"53-68-92\",\n\t\t\"accountNumber\": \"73084635\"\n\t},\n\t\"targetAccount\": {\n\t\t\"sortCode\": \"65-93-37\",\n\t\t\"accountNumber\": \"21956204\"\n\t},\n\t\"amount\": 105.0,\n\t\"reference\": \"My ref\",\n\t\"latitude\": 66.23423423,\n\t\"longitude\": 105.234234\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/transactions",
+					"raw": "localhost:8069/api/v1/transactions",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8069",
 					"path": [
 						"api",
 						"v1",
@@ -84,11 +84,11 @@
 					"raw": "{\n\t\"sortCode\": \"35-16-67\",\n\t\"accountNumber\": \"95753174\"\n}\n"
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/accounts",
+					"raw": "localhost:8069/api/v1/accounts",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8069",
 					"path": [
 						"api",
 						"v1",
@@ -115,11 +115,11 @@
 					"raw": "{\n\t\"sortCode\": \"35-16-67\",\n\t\"accountNumber\": \"95753174\",\n    \"amount\": 100.00\n}\n"
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/withdraw",
+					"raw": "localhost:8069/api/v1/withdraw",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8069",
 					"path": [
 						"api",
 						"v1",
@@ -146,11 +146,11 @@
 					"raw": "{\n\t\"targetAccountNo\": \"95753174\",\n    \"amount\": 1000.00\n}\n"
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/deposit",
+					"raw": "localhost:8069/api/v1/deposit",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8069",
 					"path": [
 						"api",
 						"v1",
